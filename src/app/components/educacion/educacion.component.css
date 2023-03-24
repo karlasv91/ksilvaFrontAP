@@ -1,0 +1,31 @@
+.row {
+    padding: 20px;
+}
+div {
+    background: linear-gradient(90deg, #0A89FF, #FF3BF6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+    color: #FFFFFf;
+    background-color:  #010d1d;
+}
+h2,h3{
+    display: inline;
+}
+#educacion{
+    margin: 0px 12px 30px;
+}
+#tecno{
+    background-color: #121228;
+    border-radius: 20px;
+}
+#uc{
+    background: linear-gradient(90deg, #0A89FF, #FF3BF6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+#borrarEdu, #editarEdu, #crearEdu{
+    background: #02e0b8
+}

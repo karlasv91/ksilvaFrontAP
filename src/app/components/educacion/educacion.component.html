@@ -1,0 +1,26 @@
+<div class="row">
+    <h1 id="educacion" style="font-family:'Impact', Charcoal, Helvetica Inserat">Educación</h1>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11">
+       <div *ngFor="let edu of educacion">
+        <h3 style="font-family:'Impact', Charcoal, Helvetica Inserat">{{edu.fundacion}} </h3>
+        <h5>{{edu.periodo}}</h5>
+        <h5>{{edu.resena}} </h5>
+         <div>
+            <button type="button" class="btn btn-outline-primary" (click)="borrarEdu(edu.id)" id="borrarEdu">Borrar</button>
+             </div> 
+
+            <div>
+            <button type="button" class="btn btn-outline-primary" routerLink="/editarEducacion/{{edu.id}}" id="editarEdu">Editar</button>
+            </div>
+            
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-outline-primary" routerLink="/nuevaEducacion" id="crearEdu">Crear Nuevo</button>
+        </div>
+
+        </div>
+
+</div>
+

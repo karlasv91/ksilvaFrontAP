@@ -1,0 +1,20 @@
+.row{
+   background-color:   #010d1d;
+    padding: 20px;
+    color:#FFFFFf;
+    }
+    #hys{
+      margin: 20px 12px 30px;
+    }
+    div{
+      background-color: #121228;
+      border-radius: 20px;
+      left: 20%;
+    }
+
+    #createHys, #editHys, #eliminarHys {
+      background: #02e0b8
+    }
+    
+     
+    

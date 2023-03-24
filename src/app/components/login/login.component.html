@@ -1,0 +1,25 @@
+<div>
+    <form #f="ngForm" (ngSubmit)="onLogin()" novalidate id="formulario">
+
+      <div class="form-outline form-white mb-4">
+        <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-sm"
+          [(ngModel)]="nombreUsuario" required/>
+        <h4><label class="form-label" for="nombreUsuario" style="font-family:'Impact', Charcoal, Helvetica Inserat">Usuario</label></h4>
+      </div>
+
+      <div class="form-outline form-white mb-4">
+        <input type="password" id="password" name="password" class="form-control form-control-sm"
+          [(ngModel)]="password" required />
+        <h4><label class="form-label" for="password" style="font-family:'Impact', Charcoal, Helvetica Inserat">Password</label></h4>
+      </div>
+
+
+      <div style="text-align: center;">
+        <button class="btn btn-lg px-5" type="submit" id="botonLogin">Entrar</button>
+      </div>
+
+
+
+    </form>
+
+  </div>

@@ -1,0 +1,46 @@
+.row {
+    padding: 20px;
+}
+
+div {
+    background-color:  #010d1d;
+    text-align: center;
+    color: #FFFFFf;
+    font-family: 'Yantramanav',sans-serif;
+}
+
+/*etiqueta nombre*/
+#nombre {
+    font-weight: bold;
+    margin-top: 5%;
+    left:30px;
+    margin-left: 30%;
+    background-color: 121228;
+}
+/*estilo de la foto de perfil*/
+@media (min-width:576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 580px;
+    }
+}
+@media (max-width:575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 70%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 20%;
+        top: 540px;
+    }
+}
+#acercaDe{
+    background: linear-gradient(90deg, #0A89FF, #FF3BF6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+}

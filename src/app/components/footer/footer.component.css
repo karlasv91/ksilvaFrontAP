@@ -1,0 +1,25 @@
+.row{
+    background-image: url("../../../assets/footerneon.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  
+    
+}
+footer{
+    color: #fefefe;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px #999;
+}
+
+footer a {
+    color: #fefefe;
+    text-decoration: none; 
+}
+
+footer a:hover{
+    color: #0A89FF;
+}

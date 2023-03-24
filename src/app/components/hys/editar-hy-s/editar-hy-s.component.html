@@ -1,0 +1,21 @@
+<div>
+    <h3 style="font-family:'Impact', Charcoal, Helvetica Inserat" id="editarHys">Editar Hard And Soft</h3>
+    <form #f="ngForm" (ngSubmit)="editHys()">
+        <div class="form-group">
+            <h4><label for="herramienta"style="font-family:'Impact', Charcoal, Helvetica Inserat" >Skill</label></h4>
+            <input type="text" class="form-control" id="titulo" name="herramienta" [(ngModel)]="hardAndSoft.herramienta">
+            
+        </div>
+
+        <div class="form-group">
+            <h4><label for="nivel"style="font-family:'Impact', Charcoal, Helvetica Inserat">Nivel</label></h4>
+            <input type="text" class="form-control" id="nivel" name="nivel" [(ngModel)]="hardAndSoft.nivel">
+            
+        </div>
+
+        <div>
+            <button id="editar">Editar</button>
+        </div>
+    </form>
+</div>
+

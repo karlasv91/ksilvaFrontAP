@@ -1,0 +1,20 @@
+<div>
+    <h3 style="font-family:'Impact', Charcoal, Helvetica Inserat" id="editarPro">Editar Proyecto</h3>
+    <form #f="ngForm" (ngSubmit)="editPro()">
+        <div class="form-group">
+            <h4><label for="titulo" style="font-family:'Impact', Charcoal, Helvetica Inserat">Nombre del proyecto</label></h4>
+            <input type="text" class="form-control" id="titulo" name="titulo" [(ngModel)]="proyectos.titulo">
+            
+        </div>
+
+        <div class="form-group">
+            <h4><label for="texto"style="font-family:'Impact', Charcoal, Helvetica Inserat">Descripción del proyecto</label></h4>
+            <input type="text" class="form-control" id="texto" name="texto" [(ngModel)]="proyectos.texto">
+            
+        </div>
+
+        <div>
+            <button id="editarProBoton">Editar</button>
+        </div>
+    </form>
+</div>

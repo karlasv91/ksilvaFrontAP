@@ -1,0 +1,21 @@
+#editar{
+    font: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #02e0b8;
+    padding: 15px 30px;
+    color: #121228;
+    margin: 10px 10px 10px;
+}
+
+div{
+    background: linear-gradient(90deg, #0A89FF, #FF3BF6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+    color: #FFFFFf;
+    background-color:  #010d1d;
+}
+
+#nuevaHys{
+    text-align: center;
+}

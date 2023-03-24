@@ -1,0 +1,26 @@
+<div>
+    <h3 style="font-family:'Impact', Charcoal, Helvetica Inserat" id="editarExp">Editar Experiencia</h3>
+    <form #f="ngForm" (ngSubmit)="editExp()">
+        <div class="form-group">
+            <h4><label for="empresa" style="font-family:'Impact', Charcoal, Helvetica Inserat">Empresa</label></h4>
+            <input type="text" class="form-control" id="empresa" name="empresa" [(ngModel)]="experiencia.empresa">
+            
+        </div>
+
+        <div class="form-group">
+            <h4><label for="fecha" style="font-family:'Impact', Charcoal, Helvetica Inserat">Fecha</label></h4>
+            <input type="text" class="form-control" id="fecha" name="fecha" [(ngModel)]="experiencia.fecha">
+            
+        </div>
+
+        <div class="form-group">
+            <h4><label for="detalle" style="font-family:'Impact', Charcoal, Helvetica Inserat">Detalle</label></h4>
+            <input type="text" class="form-control" id="detalle" name="detalle" [(ngModel)]="experiencia.detalle">
+            
+        </div>
+
+        <div>
+            <button id="editar">Editar</button>
+        </div>
+    </form>
+</div>

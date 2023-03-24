@@ -1,0 +1,37 @@
+.row {
+    padding: 20px;
+}
+div {
+    background-color: #121228;
+    border-radius: 20px;
+    left: 20%;
+    color:#FFFFFf;
+  }
+
+h2,h3{
+    display: inline;
+}
+#experiencia{
+    margin: 0px 12px 30px;
+}
+#construcciones{
+    background-color: #121228;
+    border-radius: 20px;
+}
+#irq{
+    background-color: #121228;
+    border-radius: 20px;
+}
+#group{
+    background: linear-gradient(90deg, #0A89FF, #FF3BF6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+#crearExp, #editarExp, #borrarExp{
+    background: #02e0b8;
+    
+   
+}
+

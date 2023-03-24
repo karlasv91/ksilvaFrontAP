@@ -1,0 +1,20 @@
+<div>
+    <h3 style="font-family:'Impact', Charcoal, Helvetica Inserat" id="newPro">Nuevo Proyecto</h3>
+    <form #f="ngForm" (ngSubmit)="nuevoPro()">
+        <div class="form-group">
+            <h4><label for="titulo"style="font-family:'Impact', Charcoal, Helvetica Inserat">Titulo del proyecto</label></h4>
+            <input type="text" class="form-control" id="titulo" name="titulo" [(ngModel)]="titulo">
+            
+        </div>
+
+        <div class="form-group">
+            <h4><label for="texto" style="font-family:'Impact', Charcoal, Helvetica Inserat">Descripción del proyecto</label></h4>
+            <input type="text" class="form-control" id="texto" name="texto" [(ngModel)]="texto">
+            
+        </div>
+
+        <div>
+            <button id="botonCrearPro">Crear</button>
+        </div>
+    </form>
+</div>

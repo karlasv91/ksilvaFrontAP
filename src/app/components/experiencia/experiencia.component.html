@@ -1,0 +1,23 @@
+<div class="row">
+    <h1 id="experiencia" style="font-family:'Impact', Charcoal, Helvetica Inserat">Experiencia Laboral</h1>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11">
+        <div  *ngFor="let exp of experiencia">
+            <h3 style="font-family:'Impact', Charcoal, Helvetica Inserat">{{exp.empresa}} </h3>
+            <h5>{{exp.fecha}}</h5>
+            <h5>{{exp.detalle}} </h5>
+            <div>
+                <button type="button" class="btn btn-outline-primary" (click)="borrarExp(exp.id)" id="borrarExp">Borrar</button>
+            </div>
+
+            <div>
+                <button type="button" class="btn btn-outline-primary" routerLink="/editarExperiencia/{{exp.id}}" id="editarExp">Editar</button>
+            </div>
+
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-outline-primary" routerLink="/nuevaExperiencia" id="crearExp">Crear Nuevo</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="row">
+    <h1 id="proyecto" style="font-family:'Impact', Charcoal, Helvetica Inserat">Proyecto</h1>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11">
+        <div *ngFor="let pro of proyectos">
+            <h3 style="font-family:'Impact', Charcoal, Helvetica Inserat">{{pro.titulo}} </h3>
+            <h5>{{pro.texto}} </h5>
+            <div>
+                <button type="button" class="btn btn-outline-primary" (click)="borrarPro(pro.id)" id="eliminarPro">Borrar</button>
+            </div>
+
+            <div>
+                <button type="button" class="btn btn-outline-primary" routerLink="/editarProyecto/{{pro.id}}" id="editPro">Editar</button>
+            </div>
+
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-outline-primary" routerLink="/nuevoProyecto" id="createPro">Crear Nuevo</button>
+        </div>
+    </div>
+</div>
