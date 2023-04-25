@@ -9,7 +9,7 @@ import { login } from '../models/login';
 })
 export class LoginService {
 
-  URL = 'http://localhost:8080/auth/'
+  URL = 'https://ksilvaback.onrender.com/auth/'
 
   constructor(private http: HttpClient) { }
 

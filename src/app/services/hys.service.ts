@@ -8,7 +8,7 @@ import { HardAndSoft } from '../models/hys';
 })
 export class HysService {
 
-  url="http://localhost:8080/hardAndSoft/"
+  url="https://ksilvaback.onrender.com/hardAndSoft/"
   constructor(private http:HttpClient) { }
 
   public traerHyS(): Observable<HardAndSoft[]>{

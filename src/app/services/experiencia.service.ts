@@ -8,7 +8,7 @@ import { Experiencia } from '../models/Experiencia';
 })
 export class ExperienciaService {
 
-  url="http://localhost:8080/experiencia/"
+  url="https://ksilvaback.onrender.com/experiencia/"
   constructor(private http:HttpClient) { }
 
   public traerExperiencia(): Observable<Experiencia[]>{

@@ -8,7 +8,7 @@ import { Persona } from '../models/persona';
 })
 export class PersonaService {
 
-  url="http://localhost:8080/persona/"
+  url="https://ksilvaback.onrender.com/persona/"
   constructor(private http:HttpClient) { }
 
   public traerPersona(): Observable<Persona[]>{

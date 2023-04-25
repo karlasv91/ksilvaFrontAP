@@ -8,7 +8,7 @@ import { Educacion } from '../models/educacion';
 })
 export class EducacionService {
 
-  url="http://localhost:8080/educacion/"
+  url="https://ksilvaback.onrender.com/educacion/"
   constructor(private http:HttpClient) {}
 
     public traerEducacion(): Observable<Educacion[]>{

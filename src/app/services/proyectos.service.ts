@@ -8,7 +8,7 @@ import { Proyectos } from '../models/proyectos';
 })
 export class ProyectosService {
 
-  url="http://localhost:8080/proyectos/"
+  url="https://ksilvaback.onrender.com/proyectos/"
   constructor(private http:HttpClient) { }
 
   public traerProyecto(): Observable<Proyectos[]>{
